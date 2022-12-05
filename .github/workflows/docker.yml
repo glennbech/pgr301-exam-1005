@@ -28,7 +28,6 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Build and push
-        env:
         uses: docker/build-push-action@v3
         with:
           context: .
