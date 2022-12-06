@@ -1,4 +1,7 @@
 # DevOps med gode intensjoner
+[![CI pipeline](https://github.com/jennyhsl/pgr301-exam/actions/workflows/ci.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/ci.yml)
+[![Publish docker image to ECR](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml)
+[![Terraform CloudWatch](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml)
 
 ## Krav til leveransen
 
