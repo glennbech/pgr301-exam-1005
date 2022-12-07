@@ -23,8 +23,15 @@ resource "aws_cloudwatch_dashboard" "main" {
       }
     },
     {
-    "type": "metric",
-    "title": "Total number of checked out carts"
+        "type": "metric",
+        "x": 0,
+        "y": 0,
+        "width": 12,
+        "height": 6,
+        "period": 300,
+        "stat": "Maximum",
+        "region": "eu-west-1",
+        "title": "Total number of checked out carts"
     }
     }
   ]
