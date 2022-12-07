@@ -21,6 +21,11 @@ resource "aws_cloudwatch_dashboard" "main" {
         "region": "eu-west-1",
         "title": "Total number of carts"
       }
+    },
+    {
+    "type": "metric",
+    "title": "Total number of checked out carts"
+    }
     }
   ]
 }
