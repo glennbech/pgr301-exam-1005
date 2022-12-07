@@ -4,4 +4,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "4.40.0"
     }
+  }
+
 }
