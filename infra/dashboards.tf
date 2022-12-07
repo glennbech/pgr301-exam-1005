@@ -1,5 +1,5 @@
 resource "aws_cloudwatch_dashboard" "main" {
-  dashboard_name = var.1005
+  dashboard_name = var.candidate_id
   dashboard_body = <<DEATHSTAR
 {
   "widgets": [
