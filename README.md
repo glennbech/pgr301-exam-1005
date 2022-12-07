@@ -30,6 +30,9 @@ For å konfigurere at ingen kan pushe direkte til main branch velger man alterna
 ###Del 3
 For å få workflowen til å kjøre med DockerHub konto må man legge inn brukernavn og token til DockerHub i repository secrets. Workflowen feiler fordi den ikke får logget inn i DockerHub.
 
+###Del 5
+Oppgave 1
+
 ## Krav til leveransen
 
 * Eksamensoppgaven er gitt på GitHub repository ; https://github.com/PGR301-2022/eksamen_2022
