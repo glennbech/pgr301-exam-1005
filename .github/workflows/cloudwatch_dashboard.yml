@@ -21,17 +21,21 @@ jobs:
         uses: hashicorp/setup-terraform@v2
 
       - name: Terraform Format
+        working-directory: ./infra
         id: fmt
         run: terraform fmt -check
 
       - name: Terraform Init
+        working-directory: ./infra
         id: init
         run: terraform init
 
       - name: Terraform Plan
+        working-directory: ./infra
         id: plan
         run: terraform plan  -var="candidate_id=$CANDIDATE_ID" -var="candidate_email=CANDIDATE_EMAIL" -no-color
         continue-on-error: false
 
       - name: Terraform Apply
+        working-directory: ./infra
         run: terraform apply -var="candidate_id=$CANDIDATE_ID" -var="candidate_email=$CANDIDATE_EMAIL"  -auto-approve
