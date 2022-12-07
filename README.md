@@ -3,6 +3,33 @@
 [![Publish docker image to ECR](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml)
 [![Terraform CloudWatch](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml)
 
+###Del 1
+Hva er utfordringene med dagens systemutviklingsprosess - og hvordan vil innføring av DevOps kunne være med på å løse disse? Hvilke DevOps prinsipper blir brutt?
+
+
+En vanlig respons på mange feil under release av ny funksjonalitet er å gjøre det mindre hyppig, og samtidig forsøke å legge på mer kontroll og QA. Hva er problemet med dette ut ifra et DevOps perspektiv, og hva kan være en bedre tilnærming?
+
+
+Teamet overleverer kode til en annen avdelng som har ansvar for drift - hva er utfordringen med dette ut ifra et DevOps perspektiv, og hvilke gevinster kan man få ved at team han ansvar for både drift- og utvikling?
+
+
+Å release kode ofte kan også by på utfordringer. Beskriv hvilke- og hvordan vi kan bruke DevOps prinsipper til å redusere eller fjerne risiko ved hyppige leveraner.
+###Del 2
+Oppgave 3
+
+For å legge til branch protection må sensor gå inn på settings i repositoryet, gå til "Code and automation" i sidebaren og velge "Branches" (for å få opp branches alternativet må man ha mer enn en branch).
+Ved siden av Branch protection rules er det en knapp med "Add rules" hvor man skriver inn navnet navnet på branchen man vil legge til restriskjoner på.
+
+For å konfigurere at ingen kan pushe direkte til main branch velger man alternativene
+ - Require pull request before merging
+   - Require approvals (velg minst 1 eller mer)
+ - Require status checks before merging
+   - Require branches to be up to date before merging
+   
+
+###Del 3
+For å få workflowen til å kjøre med DockerHub konto må man legge inn brukernavn og token til DockerHub i repository secrets. Workflowen feiler fordi den ikke får logget inn i DockerHub.
+
 ## Krav til leveransen
 
 * Eksamensoppgaven er gitt på GitHub repository ; https://github.com/PGR301-2022/eksamen_2022
