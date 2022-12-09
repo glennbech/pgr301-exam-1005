@@ -3,18 +3,20 @@
 [![Publish docker image to ECR](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml)
 [![Terraform CloudWatch](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml)
 
-###Del 1
+######Del 1
 Hva er utfordringene med dagens systemutviklingsprosess - og hvordan vil innføring av DevOps kunne være med på å løse disse? Hvilke DevOps prinsipper blir brutt?
 
 
-En vanlig respons på mange feil under release av ny funksjonalitet er å gjøre det mindre hyppig, og samtidig forsøke å legge på mer kontroll og QA. Hva er problemet med dette ut ifra et DevOps perspektiv, og hva kan være en bedre tilnærming?
+*En vanlig respons på mange feil under release av ny funksjonalitet er å gjøre det mindre hyppig, og samtidig forsøke å legge på mer kontroll og QA. Hva er problemet med dette ut ifra et DevOps perspektiv, og hva kan være en bedre tilnærming?*
+
+Problemet med å pushe ny funksjonalitet sjeldent er 
 
 
-Teamet overleverer kode til en annen avdelng som har ansvar for drift - hva er utfordringen med dette ut ifra et DevOps perspektiv, og hvilke gevinster kan man få ved at team han ansvar for både drift- og utvikling?
+Teamet overleverer kode til en annen avdeling som har ansvar for drift - hva er utfordringen med dette ut ifra et DevOps perspektiv, og hvilke gevinster kan man få ved at team han ansvar for både drift- og utvikling?
 
 
 Å release kode ofte kan også by på utfordringer. Beskriv hvilke- og hvordan vi kan bruke DevOps prinsipper til å redusere eller fjerne risiko ved hyppige leveraner.
-###Del 2
+##Del 2
 Oppgave 3
 
 For å legge til branch protection må sensor gå inn på settings i repositoryet, gå til "Code and automation" i sidebaren og velge "Branches" (for å få opp branches alternativet må man ha mer enn en branch).
@@ -27,10 +29,10 @@ For å konfigurere at ingen kan pushe direkte til main branch velger man alterna
    - Require branches to be up to date before merging
    
 
-###Del 3
+##Del 3
 For å få workflowen til å kjøre med DockerHub konto må man legge inn brukernavn og token til DockerHub i repository secrets. Workflowen feiler fordi den ikke får logget inn i DockerHub.
 
-###Del 5
+##Del 5
 Oppgave 1
 
 ## Krav til leveransen
