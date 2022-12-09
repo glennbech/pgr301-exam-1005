@@ -3,7 +3,7 @@
 [![Publish docker image to ECR](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/docker.yml)
 [![Terraform CloudWatch](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml/badge.svg)](https://github.com/jennyhsl/pgr301-exam/actions/workflows/cloudwatch_dashboard.yml)
 
-######Del 1
+###### Del 1
 Hva er utfordringene med dagens systemutviklingsprosess - og hvordan vil innføring av DevOps kunne være med på å løse disse? Hvilke DevOps prinsipper blir brutt?
 
 
@@ -16,7 +16,7 @@ Teamet overleverer kode til en annen avdeling som har ansvar for drift - hva er 
 
 
 Å release kode ofte kan også by på utfordringer. Beskriv hvilke- og hvordan vi kan bruke DevOps prinsipper til å redusere eller fjerne risiko ved hyppige leveraner.
-##Del 2
+## Del 2
 Oppgave 3
 
 For å legge til branch protection må sensor gå inn på settings i repositoryet, gå til "Code and automation" i sidebaren og velge "Branches" (for å få opp branches alternativet må man ha mer enn en branch).
