@@ -18,6 +18,7 @@ public class MetricsConfig {
     @Bean
     public CloudWatchAsyncClient cloudWatchAsyncClient() {
         return CloudWatchAsyncClient
+                .builder()
                 .region(Region.EU_WEST_1)
                 .build();
     }
